@@ -1,2 +1,3 @@
 # jQuery-plugin
-a private plugin library based on jQuery
+## 个人jQuery插件库
+> 这是一个个人的jquery插件仓库，放一些平时自己写的常用的、好玩的jQuery插件
