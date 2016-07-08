@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf8">
+<title>basic-switchTab</title>
+<link rel="stylesheet" href="css/demo.css" />
+</head>
+</html>
+<body>
+<div class="tab-basic">
+    <ul class="tab-title">
+        <li class="active">社会新闻</li>
+        <li>体育新闻</li>
+        <li>国际新闻</li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane active">社会新闻</div>
+        <div class="tab-pane">体育新闻</div>
+        <div class="tab-pane">国际新闻</div>
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-switchTab.min.js"></script>
+<script>
+    $(function(){
+        $(".tab-basic").switchTab({type:"fade"});
+    })
+</script>
+</body>

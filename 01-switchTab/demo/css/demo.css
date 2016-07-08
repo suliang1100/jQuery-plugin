@@ -1,0 +1,11 @@
+*{margin:0; padding:0;}
+body{font-size:12px; font-family:Arial,"Microsoft Yahei";}
+li{list-style:none;}
+.tab-basic{width:480px; margin:100px auto;}
+.tab-title{width:480px; overflow:hidden;}
+.tab-title li{width:160px; float:left; height:30px; text-align:center; line-height:30px; background:#eee; cursor:pointer;}
+.tab-title li:hover{background:#dedede;}
+.tab-title li.active{background:#50A2DE; color:#fff;}
+.tab-content{width:480px; padding:10px 0; background:#E7E7E7; text-align:center; overflow:hidden;}
+.tab-pane{width:480px; display:none; height:200px; line-height:200px; font-size:18px; }
+.tab-pane.active{display:block;}
